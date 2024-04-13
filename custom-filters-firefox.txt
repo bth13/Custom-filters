@@ -22,11 +22,11 @@ duckduckgo.com##.header__label
 duckduckgo.com##.feedback-btn.btn
 
 ! Terabox
-terabox.*,1024tera.*##.drainage
-terabox.*,1024tera.*##.seo-banner-box
-terabox.*,1024tera.*##.operate-popup-box
-terabox.*,1024tera.*##.operation-img
-terabox.*,1024tera.*##.bottom-tip-wrap
+/^.*?terabox.*?$/,1024tera.*##.drainage
+/^.*?terabox.*?$/,1024tera.*##.seo-banner-box
+/^.*?terabox.*?$/,1024tera.*##.operate-popup-box
+/^.*?terabox.*?$/,1024tera.*##.operation-img
+/^.*?terabox.*?$/,1024tera.*##.bottom-tip-wrap
 
 ! Fshare
 ! Disable animetion
