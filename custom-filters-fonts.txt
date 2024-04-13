@@ -112,6 +112,7 @@ gayteam.club##*:not(.fa, .fab, .fad, .fal, .far, .fas):style(font-family: "SF Pr
 
 ! Streamtape
 streamtape.com##*:style(font-family: "SF Pro Display", sans-serif !important)
+
 ! 4horlover
 4horlover.*##*:style(font-family: "SF Pro Display", sans-serif !important)
 
