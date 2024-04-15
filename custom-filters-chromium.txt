@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Custom filters: Chromium
-! Version: 2024.04.13
+! Version: 2024.04.15
 ! Description: Block some elements and advertise on some websites for Chromium
 ! Homepage: https://github.com/bth13/Custom-filters/blob/main/custom-filters-chromium.txt
 
@@ -257,7 +257,7 @@ pops.vn##.false.page-description_root__JJfnn
 ||animehay.*^*.gif
 animehay.*##div[style^="position: fixed; bottom: 0px;"]
 animehay.*##+js(acs, WebAssembly, instantiate)
-animehay.*##+js(acs, document.addEventListener, document.removeEventListener, window.open)
+animehay.*##+js(acs, document.addEventListener, window.open)
 animehay.*##^script:has-text(banner)
 animehay.*##script:has-text(banner):remove()
 animehay.*###banner-shopee
