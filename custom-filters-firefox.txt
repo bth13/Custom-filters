@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Custom filters: Firefox
-! Version: 2024.04.15
+! Version: 2024.04.19
 ! Description: Block some elements and advertise on some websites for Firefox
 ! Homepage: https://github.com/bth13/Custom-filters/blob/main/custom-filters-firefox.txt
 
@@ -402,6 +402,8 @@ animehay.*##.watch-history .item a img:style(width: 60px !important)
 /^.*?motchill.*?$/##.text .title:style(font-family: "UTB Bebas Title", UTMCafetaRegular, sans-serif !important)
 
 ! Motphim
+! News button
+/^.*?motphim.*?$/##^[href="/tin-tuc"]
 ! Footer
 /^.*?motphim.*?$/##^#footer
 ! List film hot
@@ -425,6 +427,7 @@ animehay.*##.watch-history .item a img:style(width: 60px !important)
 /^.*?phimmoi.*?$/##^#hide_catfish
 /^.*?phimmoi.*?$/##^#container-ads
 /^.*?phimmoi.*?$/##^[href^="https://phimsexxx.tv/"]
+/^.*?phimmoi.*?$/##^[href^="https://phimsexxx.vip/"]
 ! Footer
 /^.*?phimmoi.*?$/##^.footer
 ! Notify, comments, tags & trailers
