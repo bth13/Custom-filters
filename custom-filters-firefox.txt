@@ -45,10 +45,15 @@ fshare.vn##^.ads-login
 fshare.vn##^.quang-cao-trong
 fshare.vn##^.quang-cao-ben-trai
 fshare.vn##^.quang-cao-ben-phai
+fshare.vn##^.quang-cao-ben-tren-phai
+fshare.vn##^.quang-cao-ben-tren-trai
 fshare.vn##^.quang-cao-top-manager-file
 fshare.vn##^.first-paid-popup-cus__close-btn
+fshare.vn##^.space-top-left-and-top-right
+fshare.vn##^#compare_package_down
 fshare.vn##^#p_first_paid_gift_float_icon
 fshare.vn##^#month_promp_voucher_code_download
+
 
 ! TimFshare
 timfshare.com##[href="https://bit.ly/hdsdtimfshare"]:remove()
