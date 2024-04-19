@@ -105,7 +105,9 @@ youtube.com###clarify-box
 ! Hide extended button
 youtube.com##.ytp-cards-button-icon
 youtube.com##.ytp-suggested-action-badge-content-forward
-! Hide Ending overlay
+! Hide paid content overlay
+youtube.com##.ytp-paid-content-overlay
+! Hide ending overlay
 youtube.com##.ytp-ce-size-1280
 ! Hide branding image
 youtube.com##.iv-branding
