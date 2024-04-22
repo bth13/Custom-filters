@@ -258,96 +258,96 @@ pops.vn##.false.page-description_root__JJfnn
 
 ! AnimeHay
 ! Ads
-||animehay.*^*.gif
-animehay.*##div[style^="position: fixed; bottom: 0px;"]
-animehay.*##+js(acs, WebAssembly, instantiate)
-animehay.*##+js(acs, document.addEventListener, window.open)
-animehay.*##^script:has-text(banner)
-animehay.*##script:has-text(banner):remove()
-animehay.*###banner-shopee
+||/^.*?animehay.*?$/^*.gif
+/^.*?animehay.*?$/##div[style^="position: fixed; bottom: 0px;"]
+/^.*?animehay.*?$/##+js(acs, WebAssembly, instantiate)
+/^.*?animehay.*?$/##+js(acs, document.addEventListener, window.open)
+/^.*?animehay.*?$/##^script:has-text(banner)
+/^.*?animehay.*?$/##script:has-text(banner):remove()
+/^.*?animehay.*?$/###banner-shopee
 ! Footer
-animehay.*##.ah_footer
+/^.*?animehay.*?$/##.ah_footer
 ! Tiêu đề thừa
-animehay.*##.bg-black.margin-10-0
+/^.*?animehay.*?$/##.bg-black.margin-10-0
 ! Ghi chú & thông báo
-animehay.*##.bg-red.noti-info
-animehay.*##.noti-success
-animehay.*##.noti-warning
-animehay.*###ah_toast
+/^.*?animehay.*?$/##.bg-red.noti-info
+/^.*?animehay.*?$/##.noti-success
+/^.*?animehay.*?$/##.noti-warning
+/^.*?animehay.*?$/###ah_toast
 ! Nút thiết lập, tắt đèn và nút tắt quảng cáo
-animehay.*##.bg-lochinvar.fw-700
-animehay.*##.bg-blue.fw-700
-animehay.*##.bg-red.fw-700
+/^.*?animehay.*?$/##.bg-lochinvar.fw-700
+/^.*?animehay.*?$/##.bg-blue.fw-700
+/^.*?animehay.*?$/##.bg-red.fw-700
 ! Kệ đề cử
-animehay.*##.ah-carousel
+/^.*?animehay.*?$/##.ah-carousel
 ! Chỉnh sửa giao diện
 ! Fonts
-animehay.*##*:not(h1):style(font-weight: normal !important)
+/^.*?animehay.*?$/##*:not(h1):style(font-weight: normal !important)
 ! Border
-animehay.*##*:not(input):style(border: unset !important)
+/^.*?animehay.*?$/##*:not(input):style(border: unset !important)
 ! Thanh tìm kiếm
-animehay.*###navbar form:style(border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
-animehay.*###navbar .search-bar input:style(border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
-animehay.*###navbar .search-bar button:style(padding: 0 10px 0 10px !important; border-radius: 0 7.5px 7.5px 0 !important; background-color: rgba(36,36,36) !important)
+/^.*?animehay.*?$/###navbar form:style(border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
+/^.*?animehay.*?$/###navbar .search-bar input:style(border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
+/^.*?animehay.*?$/###navbar .search-bar button:style(padding: 0 10px 0 10px !important; border-radius: 0 7.5px 7.5px 0 !important; background-color: rgba(36,36,36) !important)
 ! Nút điều hướng (đầu)
-animehay.*###navbar .nav-items a:style(border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
+/^.*?animehay.*?$/###navbar .nav-items a:style(border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
 ! Nút điều hướng (trên thanh ngăn cách)
-animehay.*##.border-default.padding-5-10.bg-blue, .border-default.padding-5-10.bg-red:style(border-radius: 5px !important; background-color: rgba(0,0,0) !important; margin-right: 4px !important)
+/^.*?animehay.*?$/##.border-default.padding-5-10.bg-blue, .border-default.padding-5-10.bg-red:style(border-radius: 5px !important; background-color: rgba(0,0,0) !important; margin-right: 4px !important)
 ! Thanh ngăn cách
-animehay.*##.bg-gray-2:style(border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
-animehay.*##.fs-17:not(.border-r-b-t):style(border-radius: 7.5px 0 0 7.5px !important)
-animehay.*##.flex-space-between:style(border-radius: 7.5px !important;background-color: rgba(36,36,36) !important)
-animehay.*##.border-r-b-t:style(border-radius: 0 7.5px 7.5px 0 !important)
-animehay.*##.border-l-t::after
-animehay.*##.border-l-b-t::after
-animehay.*##.border-r-b-t::before
+/^.*?animehay.*?$/##.bg-gray-2:style(border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
+/^.*?animehay.*?$/##.fs-17:not(.border-r-b-t):style(border-radius: 7.5px 0 0 7.5px !important)
+/^.*?animehay.*?$/##.flex-space-between:style(border-radius: 7.5px !important;background-color: rgba(36,36,36) !important)
+/^.*?animehay.*?$/##.border-r-b-t:style(border-radius: 0 7.5px 7.5px 0 !important)
+/^.*?animehay.*?$/##.border-l-t::after
+/^.*?animehay.*?$/##.border-l-b-t::after
+/^.*?animehay.*?$/##.border-r-b-t::before
 ! Nền kệ (chung)
-animehay.*##.ah-frame-bg:style(border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
-animehay.*##.ah_noti:style(border-radius: 5px !important; background-color: rgba(24,24,24) !important)
+/^.*?animehay.*?$/##.ah-frame-bg:style(border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
+/^.*?animehay.*?$/##.ah_noti:style(border-radius: 5px !important; background-color: rgba(24,24,24) !important)
 ! Kệ phim
-animehay.*##.movies-list .movie-item:style(background-color: rgba(0,0,0,0) !important; color: #ffffff !important)
-animehay.*##.movies-list .movie-item .score:style(border-radius: unset !important; background-color: rgba(172,147,74,0.8) !important; color: #ffffff !important; bottom: 35px !important; right: 5px !important)
-animehay.*##.episode-latest, .episode_latest:style(border-radius: unset !important; background-color: rgba(156,46,58,0.8) !important; color: #ffffff !important)
-animehay.*##.episode-latest:style(top: 5px !important; left: 5px !important)
-animehay.*##.episode_latest:style(top: 0 !important; left: 0 !important)
+/^.*?animehay.*?$/##.movies-list .movie-item:style(background-color: rgba(0,0,0,0) !important; color: #ffffff !important)
+/^.*?animehay.*?$/##.movies-list .movie-item .score:style(border-radius: unset !important; background-color: rgba(172,147,74,0.8) !important; color: #ffffff !important; bottom: 35px !important; right: 5px !important)
+/^.*?animehay.*?$/##.episode-latest, .episode_latest:style(border-radius: unset !important; background-color: rgba(156,46,58,0.8) !important; color: #ffffff !important)
+/^.*?animehay.*?$/##.episode-latest:style(top: 5px !important; left: 5px !important)
+/^.*?animehay.*?$/##.episode_latest:style(top: 0 !important; left: 0 !important)
 ! Thanh lọc phim
-animehay.*###filter-movie:style(border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
-animehay.*##.bg-blue:style(border-radius: 7.5px 7.5px 0 0 !important)
-animehay.*##.bg-red:style(border-radius: unset !important; background-color: rgba(156,46,58) !important)
-animehay.*##.condition-filter > div:style(background-color: rgba(36,36,36) !important)
-animehay.*##.flex-ver-center.display-none:style(border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
-animehay.*##div#filtering div:style(border-radius: 5px !important)
+/^.*?animehay.*?$/###filter-movie:style(border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
+/^.*?animehay.*?$/##.bg-blue:style(border-radius: 7.5px 7.5px 0 0 !important)
+/^.*?animehay.*?$/##.bg-red:style(border-radius: unset !important; background-color: rgba(156,46,58) !important)
+/^.*?animehay.*?$/##.condition-filter > div:style(background-color: rgba(36,36,36) !important)
+/^.*?animehay.*?$/##.flex-ver-center.display-none:style(border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
+/^.*?animehay.*?$/##div#filtering div:style(border-radius: 5px !important)
 ! Thông tin phim
-animehay.*##.info-movie .head:style(border-radius: 0 0 7.5px 7.5px !important; background-color: rgba(36,36,36) !important)
-animehay.*##.info-movie .heading_movie:style(border-radius: 7.5px 7.5px 0 0 !important; background-color: rgba(64,64,64,0.5) !important)
-animehay.*##.info-movie .head .first:style(padding: 0 !important; width: 25% !important)
-animehay.*##.name_other, .list_cate, .score, .status, .update_time, .duration:style(border-bottom: 0.5px !important; border-color: rgba(200,200,200,0.05) !important)
-animehay.*##p:style(text-align: justify !important)
+/^.*?animehay.*?$/##.info-movie .head:style(border-radius: 0 0 7.5px 7.5px !important; background-color: rgba(36,36,36) !important)
+/^.*?animehay.*?$/##.info-movie .heading_movie:style(border-radius: 7.5px 7.5px 0 0 !important; background-color: rgba(64,64,64,0.5) !important)
+/^.*?animehay.*?$/##.info-movie .head .first:style(padding: 0 !important; width: 25% !important)
+/^.*?animehay.*?$/##.name_other, .list_cate, .score, .status, .update_time, .duration:style(border-bottom: 0.5px !important; border-color: rgba(200,200,200,0.05) !important)
+/^.*?animehay.*?$/##p:style(text-align: justify !important)
 ! Nút xem phim, theo dõi, đánh giá
-animehay.*##.fs-35:style(background-color: rgba(0,0,0,0) !important; padding: 0 !important)
+/^.*?animehay.*?$/##.fs-35:style(background-color: rgba(0,0,0,0) !important; padding: 0 !important)
 ! Phần phim và bảng tập phim
-animehay.*##.bind_movie a:not(.bind_movie a.active):style(border-radius: 5px !important; background-color: rgba(64,64,64,0.5) !important; margin: 0 7px 4px 0 !important)
-animehay.*##.bind_movie a.active:style(border-radius: 5px !important; background-color: rgba(38,141,116) !important; margin: 0 7px 4px 0 !important)
-animehay.*##.info-movie .list_episode .list-item-episode a:not(.list-item-episode a:visited):style(border: 0.25px solid rgba(255,255,255,0.1) !important; background-color: rgba(36,36,36) !important)
-animehay.*##.list-item-episode a:visited:style(border: 0.25px solid rgba(255,255,255,0.1) !important; background-color: rgba(64,64,64) !important)
+/^.*?animehay.*?$/##.bind_movie a:not(.bind_movie a.active):style(border-radius: 5px !important; background-color: rgba(64,64,64,0.5) !important; margin: 0 7px 4px 0 !important)
+/^.*?animehay.*?$/##.bind_movie a.active:style(border-radius: 5px !important; background-color: rgba(38,141,116) !important; margin: 0 7px 4px 0 !important)
+/^.*?animehay.*?$/##.info-movie .list_episode .list-item-episode a:not(.list-item-episode a:visited):style(border: 0.25px solid rgba(255,255,255,0.1) !important; background-color: rgba(36,36,36) !important)
+/^.*?animehay.*?$/##.list-item-episode a:visited:style(border: 0.25px solid rgba(255,255,255,0.1) !important; background-color: rgba(64,64,64) !important)
 ! Xem phim (các nút điều hướng)
-animehay.*##.fs-21:style(background-color: unset !important; color: #CAC9C9 !important)
-animehay.*##.fs-17:style(background-color: rgba(255,255,255,0) !important; color: #CAC9C9 !important)
-animehay.*##.button-default:not(.fs-21, .bg-green, .flex-hozi-center.fw-500.flex.margin-10-0.bg-red.padding-10-20.button-default):style(border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
-animehay.*##.bg-green:not(.fs-35):style(border-radius: 7.5px !important; background-color: rgba(72,72,72,0.75) !important)
+/^.*?animehay.*?$/##.fs-21:style(background-color: unset !important; color: #CAC9C9 !important)
+/^.*?animehay.*?$/##.fs-17:style(background-color: rgba(255,255,255,0) !important; color: #CAC9C9 !important)
+/^.*?animehay.*?$/##.button-default:not(.fs-21, .bg-green, .flex-hozi-center.fw-500.flex.margin-10-0.bg-red.padding-10-20.button-default):style(border-radius: 7.5px !important; background-color: rgba(36,36,36) !important)
+/^.*?animehay.*?$/##.bg-green:not(.fs-35):style(border-radius: 7.5px !important; background-color: rgba(72,72,72,0.75) !important)
 ! Xem phim (danh sách tập phim)
-animehay.*##.watching-movie .list-item-episode a:not(.list-item-episode a:visited, .watching-movie .list-item-episode a[active]):style(border: 0.25px solid rgba(255,255,255,0.1) !important; background-color: rgba(36,36,36) !important)
-animehay.*##.watching-movie .list-item-episode a[active]:style(border: 0.25px solid rgba(255,255,255,0.1) !important; background-color: rgba(156,46,58,0.75) !important)
+/^.*?animehay.*?$/##.watching-movie .list-item-episode a:not(.list-item-episode a:visited, .watching-movie .list-item-episode a[active]):style(border: 0.25px solid rgba(255,255,255,0.1) !important; background-color: rgba(36,36,36) !important)
+/^.*?animehay.*?$/##.watching-movie .list-item-episode a[active]:style(border: 0.25px solid rgba(255,255,255,0.1) !important; background-color: rgba(156,46,58,0.75) !important)
 ! Avater comment
-animehay.*##.user-comment .left .avatar:style(border-radius: 5px !important)
+/^.*?animehay.*?$/##.user-comment .left .avatar:style(border-radius: 5px !important)
 ! Thành phần trong Nút danh sách
-animehay.*##.tab-links a:not(.tab-links a.active):style(background-color: rgba(36,36,36) !important)
-animehay.*##.tab-links a.active:style(background-color: rgba(156,46,58) !important)
-animehay.*###drop-down-1 .tab-content a:style(background-color: rgba(72,72,72,0.5) !important; border: 0.25px solid rgba(0,0,0,0.1) !important)
+/^.*?animehay.*?$/##.tab-links a:not(.tab-links a.active):style(background-color: rgba(36,36,36) !important)
+/^.*?animehay.*?$/##.tab-links a.active:style(background-color: rgba(156,46,58) !important)
+/^.*?animehay.*?$/###drop-down-1 .tab-content a:style(background-color: rgba(72,72,72,0.5) !important; border: 0.25px solid rgba(0,0,0,0.1) !important)
 ! Lịch sử
-animehay.*##.watch-history .item a > div:last-child:style(border: 0.5px solid rgba(0,0,0,0) !important; border-radius: 0 7.5px 7.5px 0 !important; background-color: rgba(64,64,64,0.5) !important; height: 38px !important)
-animehay.*##.watch-history .item a > div:first-child:style(border-radius: 7.5px 0 0 7.5px!important; background-color: rgba(64,64,64,0.5) !important; width: 60px !important)
-animehay.*##.watch-history .item a img:style(width: 60px !important)
+/^.*?animehay.*?$/##.watch-history .item a > div:last-child:style(border: 0.5px solid rgba(0,0,0,0) !important; border-radius: 0 7.5px 7.5px 0 !important; background-color: rgba(64,64,64,0.5) !important; height: 38px !important)
+/^.*?animehay.*?$/##.watch-history .item a > div:first-child:style(border-radius: 7.5px 0 0 7.5px!important; background-color: rgba(64,64,64,0.5) !important; width: 60px !important)
+/^.*?animehay.*?$/##.watch-history .item a img:style(width: 60px !important)
 
 ! Animet
 /*.gif$image,domain=/^.*?animet.*?$/
@@ -379,7 +379,7 @@ animehay.*##.watch-history .item a img:style(width: 60px !important)
 /^.*?animet.*?$/##.widget-area
 /^.*?animet.*?$/##main > .Wdgt
 /^.*?animet.*?$/##.list-server1:style(background-color: unset !important)
-! Disable border radius
+/^.*?animet.*?$/##p:style(text-align: justify !important)
 /^.*?animet.*?$/##*:style(border-radius: unset !important)
 
 ! MotchillTV
