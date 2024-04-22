@@ -322,6 +322,7 @@ animehay.*##.info-movie .head:style(border-radius: 0 0 7.5px 7.5px !important; b
 animehay.*##.info-movie .heading_movie:style(border-radius: 7.5px 7.5px 0 0 !important; background-color: rgba(64,64,64,0.5) !important)
 animehay.*##.info-movie .head .first:style(padding: 0 !important; width: 25% !important)
 animehay.*##.name_other, .list_cate, .score, .status, .update_time, .duration:style(border-bottom: 0.5px !important; border-color: rgba(200,200,200,0.05) !important)
+animehay.*##p:style(text-align: justify !important)
 ! Nút xem phim, theo dõi, đánh giá
 animehay.*##.fs-35:style(background-color: rgba(0,0,0,0) !important; padding: 0 !important)
 ! Phần phim và bảng tập phim
