@@ -478,3 +478,9 @@ pops.vn##.false.page-description_root__JJfnn
 
 ! iGay69
 igay69.*##.separator
+
+! BoyfriendTV
+boyfriendtv.com##^.amateur-promo-heading
+boyfriendtv.com##^.ast-model-promo-list
+boyfriendtv.com##^.vtab
+boyfriendtv.com##^.footer
