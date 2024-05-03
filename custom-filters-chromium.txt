@@ -396,6 +396,8 @@ pops.vn##.false.page-description_root__JJfnn
 ! Motphim
 ! News button
 /^.*?motphim.*?$/##[href="/tin-tuc"]:remove()
+! Notice
+/^.*?motphim.*?$/##.contact-telegram
 ! Footer
 /^.*?motphim.*?$/###footer
 ! List film hot
