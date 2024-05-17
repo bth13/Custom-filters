@@ -55,7 +55,7 @@ google.com,~fonts.google.com##*:not(.mat-icon, .material-icons, .google-material
 youtube.com,youtubekids.com##:not(.vjsd-icon, .youtube-icons-outlined):style(font-family: "SF Pro Display", sans-serif !important)
 
 ! Voz
-voz.vn##*:not(code, kbd, pre, samp, .inputDate-icon, .inputNumber-button, .shareButtons-button > i, .shareInput-button > i, .fancybox-button > i, .reaction.reaction--imageHidden.reaction--1 i, .fa, .fas, .far, .fal, .fad, .fab):style(font-family: "SF Pro Display", sans-serif !important)
+voz.vn##*:not(button, code, kbd, pre, samp, .inputDate-icon, .reaction.reaction--imageHidden.reaction--1 i, .fa, .fas, .far, .fal, .fad, .fab):style(font-family: "SF Pro Display", sans-serif !important)
 voz.vn##code, kbd, pre, samp:style(font-family: "JetBrains Mono", monospace !important)
 
 ! Vn-z (Block)
