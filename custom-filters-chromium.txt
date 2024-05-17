@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Custom filters: Chromium
-! Version: 2024.05.08
+! Version: 2024.05.17
 ! Description: Block some elements and advertise on some websites for Chromium
 ! Homepage: https://github.com/bth13/Custom-filters/blob/main/custom-filters-chromium.txt
 
@@ -232,10 +232,6 @@ wattpad.*##.btn-primary
 wattpad.*##.left-rail
 wattpad.*###footer-container
 ||static.wattpad.*/image/2021_House-Ad_Premium$image,domain=wattpad.*
-! Text
-wattpad.*##*:not(.fa, pre, p):style(font-family: "SF Pro Display", sans-serif !important)
-wattpad.*##pre:style(font-family: "Vollkorn", serif !important)
-wattpad.*##pre:style(text-align: justify !important)
 
 ! Pops
 ! Mobile
@@ -372,31 +368,6 @@ pops.vn##.false.page-description_root__JJfnn
 /^.*?animet.*?$/##.list-server1:style(background-color: unset !important)
 /^.*?animet.*?$/##p:style(text-align: justify !important)
 /^.*?animet.*?$/##*:style(border-radius: unset !important)
-
-! MotchillTV
-! Home button
-/^.*?motchill.*?$/##.active.menu-item
-! Films hot
-/^.*?motchill.*?$/##.film-hot.list-films
-! Footer
-/^.*?motchill.*?$/###footer
-! News
-/^.*?motchill.*?$/##div.film-new.list-films:nth-of-type(5)
-! Trending
-/^.*?motchill.*?$/##.block.most-view
-! Tags & keywords
-/^.*?motchill.*?$/##.tags
-/^.*?motchill.*?$/##.keywords
-! Share
-/^.*?motchill.*?$/##.clear.social-menu
-! Note
-/^.*?motchill.*?$/###player-video > .film-note
-/^.*?motchill.*?$/##.tip-change-server.film-note > span
-! Border
-/^.*?motchill.*?$/##*:style(border: unset !important; border-radius: unset !important)
-! Fonts
-/^.*?motchill.*?$/##*:not(.fa, .text .title):style(font-family: "SF Pro Display", sans-serif !important)
-/^.*?motchill.*?$/##.text .title:style(font-family: "UTB Bebas Title", UTMCafetaRegular, sans-serif !important)
 
 ! Motphim
 ! News button
