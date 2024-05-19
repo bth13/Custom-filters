@@ -75,7 +75,7 @@ github.com##pre, code, .blob-code, .blob-code-marker, .input-monospace, .markdow
 genius.com##*:style(font-family: "SF Pro Display", sans-serif !important; font-weight: 400 !important)
 
 ! Qobuz
-qobuz.com##*:not([class*=" pct-"], [class^="pct-"]):style(font-family: "SF Pro Display", sans-serif !important)
+qobuz.com##*:not([class*=" pct-"]):style(font-family: "SF Pro Display", sans-serif !important)
 
 ! VirusTotal
 virustotal.com##*:style(font-family: "SF Pro Display", sans-serif !important)
