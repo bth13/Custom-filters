@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Custom filters: Fonts
-! Version: 2024.05.17
+! Version: 2024.05.19
 ! Description: Change fonts on some websites
 ! Homepage: https://github.com/bth13/Custom-filters/blob/main/custom-filters-fonts.txt
 
 ! General
-*,~duckduckgo.com,~mozilla.org,~firefox.com,~thunderbird.net,~bing.com,~copilot.microsoft.com,msn.com,~mediafire.com,~fshare.vn,~timfshare.com,~facebook.com,~instagram.com,~threads.net,~x.com,~reddit.com,~youtube.com,~youtubekids.comg,~google.com,~fonts.google.com,~voz.vn,~vn-z.vn,~techrum.vn,~genius.com,~virustotal.com,~vnexpress.net,~icecreamapps.com,~taiwebs.com,~apkcombo.com,~tuanphong.vn,~thegioididong.com,~hentaivn.*,~boyfriendtv.com,~gayteam.club,~streamtape.com,~4horlover.*,~md.gvdb.org,~wattpad.com,~/^.*?motphim.*?$/##:is(button, body, input, label, select, td, textarea):not(pre, code, .fa, .fas, .far, .fal, .fad, .fab, .file-icon):style(font-family: "SF Pro Display", sans-serif !important)
+*,~duckduckgo.com,~mozilla.org,~firefox.com,~thunderbird.net,~bing.com,~copilot.microsoft.com,msn.com,~mediafire.com,~fshare.vn,~timfshare.com,~facebook.com,~instagram.com,~threads.net,~x.com,~reddit.com,~youtube.com,~youtubekids.comg,~google.com,~fonts.google.com,~voz.vn,~vn-z.vn,~techrum.vn,~genius.com,~virustotal.com,~vnexpress.net,~icecreamapps.com,~taiwebs.com,~apkcombo.com,~tuanphong.vn,~thegioididong.com,~hentaivn.*,~boyfriendtv.com,~gayteam.club,~streamtape.com,~4horlover.*,~md.gvdb.org,~wattpad.com,~/^.*?motphim.*?$/,~qobuz.com##:is(button, body, input, label, select, td, textarea):not(pre, code, .fa, .fas, .far, .fal, .fad, .fab, .file-icon):style(font-family: "SF Pro Display", sans-serif !important)
 *##code:style(font-family: "JetBrains Mono", monospace !important)
 
 ! DuckDuckGo
@@ -73,6 +73,9 @@ github.com##pre, code, .blob-code, .blob-code-marker, .input-monospace, .markdow
 
 ! Genius
 genius.com##*:style(font-family: "SF Pro Display", sans-serif !important; font-weight: 400 !important)
+
+! Qobuz
+qobuz.com##*:not([class*=" pct-"], [class^="pct-"]):style(font-family: "SF Pro Display", sans-serif !important)
 
 ! VirusTotal
 virustotal.com##*:style(font-family: "SF Pro Display", sans-serif !important)
