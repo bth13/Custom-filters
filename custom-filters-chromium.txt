@@ -123,12 +123,12 @@ chat.zalo.me##.tds-banner-download__content-wrapper
 chat.zalo.me##.snack-body
 
 ! Voz
-voz.vn##^.button.button--scroll
-voz.vn##^.notice-content
-voz.vn##^.p-footer
-voz.vn##^.p-body-contentCol
-voz.vn##^.p-body-sidebarCol
-voz.vn##^.p-body-sidebar
+voz.vn##.button.button--scroll
+voz.vn##.notice-content
+voz.vn##.p-footer
+voz.vn##.p-body-contentCol
+voz.vn##.p-body-sidebarCol
+voz.vn##.p-body-sidebar
 voz.vn##.p-body-main:remove-class(p-body-main--withSidebar)
 ! Inogre users
 !voz.vn##.js-inlineModContainer:has(.message-name,.bbCodeBlock-title,.message-attribution:has-text(The Deep Sea))
