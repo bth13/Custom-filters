@@ -123,7 +123,7 @@ chat.zalo.me##.tds-banner-download__content-wrapper
 chat.zalo.me##.snack-body
 
 ! Voz
-voz.vn##^.shareButtons
+voz.vn##.shareButtons
 voz.vn##^.button--scroll
 voz.vn##^.notice-content
 voz.vn##^.p-header
