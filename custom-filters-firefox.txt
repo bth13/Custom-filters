@@ -126,7 +126,6 @@ chat.zalo.me##.snack-body
 voz.vn##.shareButtons
 voz.vn##^.button--scroll
 voz.vn##^.notice-content
-voz.vn##^.p-header
 voz.vn##^.p-footer
 voz.vn##^.p-body-contentCol
 voz.vn##^.p-body-sidebarCol
