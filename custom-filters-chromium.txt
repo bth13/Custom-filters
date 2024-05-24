@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Custom filters: Chromium
-! Version: 2024.05.20
+! Version: 2024.05.25
 ! Description: Block some elements and advertise on some websites for Chromium
 ! Homepage: https://github.com/bth13/Custom-filters/blob/main/custom-filters-chromium.txt
 
@@ -123,24 +123,8 @@ chat.zalo.me##.tds-banner-download__content-wrapper
 chat.zalo.me##.snack-body
 
 ! Voz
-! Ads
-voz.vn##.shareButtons--iconic.shareButtons
-voz.vn###footer
-voz.vn###header
-voz.vn##.message.message--post:has(pubtag.adsbypubpower)
-voz.vn##.message.message--post:has(div#dablewidget_GlYpea7y)
-voz.vn##.p-navEl-linkHolder
-voz.vn##.notice-content
-voz.vn#@#div.message--post
-! Custom
-voz.vn##[class^="p-body-sidebar"]
-voz.vn##.message-inner:style(margin-top: 6px !important)
-! Center
-!voz.vn##.p-body:style(padding: 0 50px 0 50px !important)
-! Custom hide
-voz.vn##.p-sectionLinks
-voz.vn##.block-filterBar
-voz.vn##.structItem--quickCreate.structItem
+voz.vn##.p-body-contentCol, .p-body-sidebarCol, .p-body-sidebar
+voz.vn##.p-body-main:remove-class(p-body-main--withSidebar)
 ! Inogre users
 !voz.vn##.js-inlineModContainer:has(.message-name,.bbCodeBlock-title,.message-attribution:has-text(The Deep Sea))
 !voz.vn##.js-inlineModContainer:has(.message-name,.bbCodeBlock-title,.message-attribution:has-text(The Deep Sea 2))
