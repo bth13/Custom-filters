@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Custom filters: Fonts
-! Version: 2024.05.20
+! Version: 2024.05.25
 ! Description: Change fonts on some websites
 ! Homepage: https://github.com/bth13/Custom-filters/blob/main/custom-filters-fonts.txt
 
@@ -55,7 +55,7 @@ google.com,~fonts.google.com##*:not(.mat-icon, .material-icons, .google-material
 youtube.com,youtubekids.com##*:not(.vjsd-icon, .youtube-icons-outlined):style(font-family: "SF Pro Display", sans-serif !important)
 
 ! Voz, Vn-z, Techrum
-voz.vn,vn-z.vn,techrum.vn##*:not(code, kbd, pre, samp, button, .inputDate-icon, .fancybox-button > i, .shareButtons-button> i, .reaction.reaction--imageHidden.reaction--1 i, .alertToggler-icon, .fa, .fas, .far, .fal, .fad, .fab):style(font-family: "SF Pro Display", sans-serif !important)
+voz.vn,vn-z.vn,techrum.vn##*:not(code, kbd, pre, samp, button, .inputDate-icon, .fancybox-button > i, .shareButtons-button> i, .shareInput-button > i, .reaction.reaction--imageHidden.reaction--1 i, .alertToggler-icon, .fa, .fas, .far, .fal, .fad, .fab):style(font-family: "SF Pro Display", sans-serif !important)
 voz.vn##code, kbd, pre, samp:style(font-family: "JetBrains Mono", monospace !important)
 
 ! Gitlab
