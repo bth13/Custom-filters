@@ -57,8 +57,6 @@ fshare.vn##^#month_promp_voucher_code_download
 timfshare.com##[href="https://bit.ly/hdsdtimfshare"]:remove()
 
 ! Facebook
-! Block video ads
-facebook.com##+js(set, Object.prototype.scrubber, undefined)
 ! Hide people you may know on profile
 facebook.com##.x1xmf6yo.xev17xk
 
