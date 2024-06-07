@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Custom filters: Firefox
-! Version: 2024.06.03
+! Version: 2024.06.07
 ! Description: Block some elements and advertise on some websites for Firefox
 ! Homepage: https://github.com/bth13/Custom-filters/blob/main/custom-filters-firefox.txt
 
@@ -114,7 +114,7 @@ youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: conten
 !youtube.com##div#metadata-line > span.ytd-video-meta-block:nth-of-type(1):not(:has-text(/N|Tr/)):upward(ytd-rich-item-renderer)
 
 ! YouTube Music
-music.youtube.com##tp-yt-paper-dialog
+!music.youtube.com##tp-yt-paper-dialog
 
 ! Zalo
 chat.zalo.me##.tds-banner-download__content-wrapper
