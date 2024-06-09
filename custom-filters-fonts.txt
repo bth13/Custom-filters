@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Custom filters: Fonts
-! Version: 2024.05.25
+! Version: 2024.06-09
 ! Description: Change fonts on some websites
 ! Homepage: https://github.com/bth13/Custom-filters/blob/main/custom-filters-fonts.txt
 
@@ -49,7 +49,7 @@ tiktok.com##*:style(font-family: "SF Pro Display", sans-serif !important)
 pinterest.com##*:style(font-family: "SF Pro Display", sans-serif !important)
 
 ! Google (Style for general)
-google.com,~fonts.google.com##*:not(.mat-icon, .material-icons, .google-material-icons, .material-icons-extended, .google-symbols, .DPvwYc, .devsite-nav-toggle):style(font-family: "SF Pro Display", sans-serif !important)
+google.com,~fonts.google.com##*:not(.mat-icon, .material-icons, .google-material-icons, .google-material-icons-filled, .material-icons-extended, .google-symbols, .DPvwYc, .devsite-nav-toggle):style(font-family: "SF Pro Display", sans-serif !important)
 
 ! YouTube
 youtube.com,youtubekids.com##*:not(.vjsd-icon, .youtube-icons-outlined):style(font-family: "SF Pro Display", sans-serif !important)
