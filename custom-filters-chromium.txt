@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Custom filters: Chromium
-! Version: 2024.06.07
+! Version: 2024.06.10
 ! Description: Block some elements and advertise on some websites for Chromium
 ! Homepage: https://github.com/bth13/Custom-filters/blob/main/custom-filters-chromium.txt
 
@@ -321,6 +321,47 @@ pops.vn##.false.page-description_root__JJfnn
 /^.*?animehay.*?$/##.watch-history .item a > div:last-child:style(border: 0.5px solid rgba(0,0,0,0) !important; border-radius: 0 7.5px 7.5px 0 !important; background-color: rgba(64,64,64,0.5) !important; height: 38px !important)
 /^.*?animehay.*?$/##.watch-history .item a > div:first-child:style(border-radius: 7.5px 0 0 7.5px!important; background-color: rgba(64,64,64,0.5) !important; width: 60px !important)
 /^.*?animehay.*?$/##.watch-history .item a img:style(width: 60px !important)
+
+! Anime Vietsub
+! Ads
+/^.*?animevietsub.*?$/###invideo_wrapper
+/^.*?animevietsub.*?$/##.Ads
+/^.*?animevietsub.*?$/##.mobile-catfixx
+/^.*?animevietsub.*?$/##.pc-catfixx
+/^.*?animevietsub.*?$/##.jw-logo
+/^.*?animevietsub.*?$/##+js(acs, eval, $._Eu)
+||lh3.googleusercontent.com/*=s0$image,domain=/^.*?animevietsub.*?$/
+! Buttons
+/^.*?animevietsub.*?$/###btn-toggle-error
+/^.*?animevietsub.*?$/##.alert-info.alert
+/^.*?animevietsub.*?$/##.fa-comments.Lnk
+/^.*?animevietsub.*?$/##.fa-history.Lnk
+/^.*?animevietsub.*?$/##.AAIco-lightbulb_outline.Lnk
+/^.*?animevietsub.*?$/##.AAIco-vertical_align_bottom.Lnk
+/^.*?animevietsub.*?$/##.AAIco-camera_enhance.Lnk
+/^.*?animevietsub.*?$/##.AAIco-bookmark.Lnk
+/^.*?animevietsub.*?$/##.AAIco-aspect_ratio.Lnk
+! Style
+/^.*?animevietsub.*?$/##*:style(border-radius: unset !important)
+/^.*?animevietsub.*?$/##*:not(span.mli-eps i, .anime-avg-user-rating):style(font-family: "SF Pro Display", sans-serif !important)
+/^.*?animevietsub.*?$/##span.mli-eps i, .anime-avg-user-rating:style(font-family: "UTB Bebas Sub", sans-serif !important)
+/^.*?animevietsub.*?$/##span.mli-eps:style(top: 5px !important; right: 5px !important; background: rgba(183,28,28,.75) !important)
+! Notify
+/^.*?animevietsub.*?$/##.announcement
+! Right Widget
+/^.*?animevietsub.*?$/##.widget-area
+! Footer
+/^.*?animevietsub.*?$/##.Footer
+! Vote
+/^.*?animevietsub.*?$/##.Prct
+! Comment & Keywords
+/^.*?animevietsub.*?$/##.fbcmt
+/^.*?animevietsub.*?$/###mv-keywords
+! Notify in watch
+/^.*?animevietsub.*?$/###watch-block > center
+/^.*?animevietsub.*?$/###links-backup > h3
+! Schedule
+/^.*?animevietsub.*?$/##.schedule-title-main
 
 ! Animet
 /*.gif$image,domain=/^.*?animet.*?$/
