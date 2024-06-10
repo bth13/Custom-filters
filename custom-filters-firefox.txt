@@ -322,6 +322,14 @@ pops.vn##.false.page-description_root__JJfnn
 /^.*?animehay.*?$/##.watch-history .item a img:style(width: 60px !important)
 
 ! Anime Vietsub
+! Ads
+/^.*?animevietsub.*?$/##^#invideo_wrapper
+/^.*?animevietsub.*?$/##^.Ads
+/^.*?animevietsub.*?$/##^.mobile-catfixx
+/^.*?animevietsub.*?$/##^.pc-catfixx
+/^.*?animevietsub.*?$/##^.jw-logo
+/^.*?animevietsub.*?$/##+js(acs, eval, $._Eu)
+||lh3.googleusercontent.com/*=s0$image,domain=/^.*?animevietsub.*?$/
 ! Buttons
 /^.*?animevietsub.*?$/##^#btn-toggle-error
 /^.*?animevietsub.*?$/##^.alert-info.alert
