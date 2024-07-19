@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Custom filters: Firefox
-! Version: 2024.06.25
+! Version: 2024.07.20
 ! Description: Block some elements and advertise on some websites for Firefox
 ! Homepage: https://github.com/bth13/Custom-filters/blob/main/custom-filters-firefox.txt
 
@@ -475,6 +475,7 @@ pops.vn##.false.page-description_root__JJfnn
 4horlover.*##^.widget_media_image
 4horlover.*##^.category-uncategorized.hentry.sticky
 4horlover.*##^.uivnukslgdwvkodhsoepxuhnqwmxtthnzbmbprtxpyzhnebmkxbzunlqk
+4horlover.*##^.mtsnb-absolute.mtsnb-top.mtsnb-shown.mtsnb
 
 ! iGay69
 igay69.*##.separator
