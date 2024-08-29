@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Custom filters: Chromium
-! Version: 2024.08.19
+! Version: 2024.08.30
 ! Description: Block some elements and advertise on some websites for Chromium
 ! Homepage: https://github.com/bth13/Custom-filters/blob/main/custom-filters-chromium.txt
 
@@ -131,7 +131,7 @@ voz.vn##.p-body-sidebarCol
 voz.vn##.p-body-sidebar
 voz.vn##.p-body-main:remove-class(p-body-main--withSidebar)
 ! Inogre users
-!voz.vn##.js-inlineModContainer:has(.message-name,.bbCodeBlock-title,.message-attribution:has-text(The Deep Sea))
+!voz.vn##.js-inlineModContainer:has(.message-name,.bbCodeBlock-title,.message-attribution:has-text(Tên user cần ẩn|Tên user cần block))
 
 ! Vn-z
 vn-z.vn##.goog-te-gadget.skiptranslate
