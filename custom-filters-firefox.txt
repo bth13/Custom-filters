@@ -466,7 +466,7 @@ pops.vn##.false.page-description_root__JJfnn
 /^.*?phimmoi.*?$/##^.server-title
 /^.*?phimmoi.*?$/##.server-list:style(margin: 15px 0 -15px 0 ! important)
 ! Movie contents
-!/^.*?phimmoi.*?$/##.content:style(font-size: 14px !important; font-family: "SF Pro Display", sans-serif !important)
+/^.*?phimmoi.*?$/##.content:style(font-size: 14px !important; font-family: "SF Pro Display", sans-serif !important)
 ! Ribbon status
 /^.*?phimmoi.*?$/##.ribbon::after
 /^.*?phimmoi.*?$/##.ribbon:style(padding: 3px 4px 2px 4px !important; left: 0 !important; top: 0 !important; background-color: rgba(177,0,50,0.75) !important)
