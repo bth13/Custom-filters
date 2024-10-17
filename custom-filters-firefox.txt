@@ -38,6 +38,8 @@ fshare.vn##^.brown.component-chat
 fshare.vn##^#link_social_fshare
 ! Hide footers
 fshare.vn##^footer
+! Header Notice
+fshare.vn##^.header_notice
 ! Block ads
 fshare.vn##.mdc-dialog--open.mdc-dialog
 fshare.vn##.popup-vip-cus__visibility
