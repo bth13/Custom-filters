@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Custom filters: Chromium
-! Version: 2024.10.17
+! Version: 2024.12.14
 ! Description: Block some elements and advertise on some websites for Chromium
 ! Homepage: https://github.com/bth13/Custom-filters/blob/main/custom-filters-chromium.txt
 
@@ -436,46 +436,46 @@ pops.vn##.false.page-description_root__JJfnn
 /^.*?phimmoi.*?$/###container-ads
 /^.*?phimmoi.*?$/##[title="PHIMSEXXX.TV"]:remove()
 ! Footer
-/^.*?phimmoi.*?$/##.footer
+!/^.*?phimmoi.*?$/##^.footer
 ! Notify, comments, tags & trailers
-/^.*?phimmoi.*?$/##.block-note
-/^.*?phimmoi.*?$/##.block-comments
-/^.*?phimmoi.*?$/##.block-tags
+!/^.*?phimmoi.*?$/##^.block-note
+!/^.*?phimmoi.*?$/##^.block-comments
+!/^.*?phimmoi.*?$/##^.block-tags
 ! Suggest shelf, update shelf
-/^.*?phimmoi.*?$/##.col-left, .col-right, .col-lg-12
+!/^.*?phimmoi.*?$/##^.col-left, .col-right, .col-lg-12
 ! Year
-/^.*?phimmoi.*?$/##.movie-title-chap
+!/^.*?phimmoi.*?$/##^.movie-title-chap
 ! Rating, user action
-/^.*?phimmoi.*?$/##.box-rating
-/^.*?phimmoi.*?$/##.error-player.btn-cs
-/^.*?phimmoi.*?$/##.expand-player.btn-cs
-/^.*?phimmoi.*?$/##.light-off.btn-cs
-/^.*?phimmoi.*?$/###episode-search
+!/^.*?phimmoi.*?$/##^.box-rating
+!/^.*?phimmoi.*?$/##^.error-player.btn-cs
+!/^.*?phimmoi.*?$/##^.expand-player.btn-cs
+!/^.*?phimmoi.*?$/##^.light-off.btn-cs
+!/^.*?phimmoi.*?$/##^#episode-search
 ! Re-design
 ! Border & shadow
-/^.*?phimmoi.*?$/##*:style(border: unset ! important; text-shadow: unset !important)
+!/^.*?phimmoi.*?$/##*:style(border: unset ! important; text-shadow: unset !important)
 ! Watch button
-/^.*?phimmoi.*?$/##.btn-block:style(background-color: rgba(0,0,0,0.25) !important)
+!/^.*?phimmoi.*?$/##.btn-block:style(background-color: rgba(0,0,0,0.25) !important)
 ! Status button
-/^.*?phimmoi.*?$/##.btn3d:style(margin: 0 !important; border-radius: 0 !important; background-image: unset !important)
-/^.*?phimmoi.*?$/##.btn3d.active, .btn3d:hover:style(background-color: rgba(177,0,50,1) !important; color: white !important)
-/^.*?phimmoi.*?$/##.btn3d.black:not(.btn3d.active, .btn3d:hover):style(background-color: rgba(64,64,64,0.75) !important)
+!/^.*?phimmoi.*?$/##.btn3d:style(margin: 0 !important; border-radius: 0 !important; background-image: unset !important)
+!/^.*?phimmoi.*?$/##.btn3d.active, .btn3d:hover:style(background-color: rgba(177,0,50,1) !important; color: white !important)
+!/^.*?phimmoi.*?$/##.btn3d.black:not(.btn3d.active, .btn3d:hover):style(background-color: rgba(64,64,64,0.75) !important)
 ! Title
-/^.*?phimmoi.*?$/##.movie-title-1:style(font-size: 12px !important; color: white !important; text-transform: capitalize !important)
-/^.*?phimmoi.*?$/##.movie-title-2:style(font-size: 12px !important; margin: -5px 0 -2px 0 !important; color: rgba(180,180,180) !important)
-/^.*?phimmoi.*?$/##.movie-item .block-wrapper:style(padding: 0 !important)
+!/^.*?phimmoi.*?$/##.movie-title-1:style(font-size: 12px !important; color: white !important; text-transform: capitalize !important)
+!/^.*?phimmoi.*?$/##.movie-title-2:style(font-size: 12px !important; margin: -5px 0 -2px 0 !important; color: rgba(180,180,180) !important)
+!/^.*?phimmoi.*?$/##.movie-item .block-wrapper:style(padding: 0 !important)
 ! Server
-/^.*?phimmoi.*?$/##.server-title
-/^.*?phimmoi.*?$/##.server-list:style(margin: 15px 0 -15px 0 ! important)
+!/^.*?phimmoi.*?$/##^.server-title
+!/^.*?phimmoi.*?$/##.server-list:style(margin: 15px 0 -15px 0 ! important)
 ! Movie contents
-/^.*?phimmoi.*?$/##.content:style(font-size: 14px !important; font-family: "SF Pro Display", sans-serif !important)
+!/^.*?phimmoi.*?$/##.content:style(font-size: 14px !important; font-family: "SF Pro Display", sans-serif !important)
 ! Ribbon status
-/^.*?phimmoi.*?$/##.ribbon::after
-/^.*?phimmoi.*?$/##.ribbon:style(padding: 3px 4px 2px 4px !important; left: 0 !important; top: 0 !important; background-color: rgba(177,0,50,0.75) !important)
+!/^.*?phimmoi.*?$/##.ribbon::after
+!/^.*?phimmoi.*?$/##.ribbon:style(padding: 3px 4px 2px 4px !important; left: 0 !important; top: 0 !important; background-color: rgba(177,0,50,0.75) !important)
 ! Fonts
-/^.*?phimmoi.*?$/##*:not(.fa, .fas):style(font-weight: normal !important)
-/^.*?phimmoi.*?$/###mega-menu-1, .title-list-index, .title-1, h2:style(font-family: "UTB Bebas Title", 'UTMCafetaRegular', sans-serif !important)
-/^.*?phimmoi.*?$/###mega-menu-1 li .sub a:style(font-family: "SF Pro Display", sans-serif !important)
+!/^.*?phimmoi.*?$/##*:not(.fa, .fas):style(font-weight: normal !important)
+!/^.*?phimmoi.*?$/###mega-menu-1, .title-list-index, .title-1, h2:style(font-family: "UTB Bebas Title", 'UTMCafetaRegular', sans-serif !important)
+!/^.*?phimmoi.*?$/###mega-menu-1 li .sub a:style(font-family: "SF Pro Display", sans-serif !important)
 
 ! 4horlover
 4horlover.*##.mtsnb-fixed
