@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Custom filters: Fonts
-! Version: 2025.01.12
+! Version: 2025.04.03
 ! Description: Change fonts on some websites
 ! Homepage: https://github.com/bth13/Custom-filters/blob/main/custom-filters-fonts.txt
 
@@ -117,4 +117,4 @@ streamtape.com##*:style(font-family: "SF Pro Display", sans-serif !important)
 4horlover.*##*:style(font-family: "SF Pro Display", sans-serif !important)
 
 ! Md.gvdb.org
-md.gvdb.org##*:not(.fa, .fab, .fad, .fal, .far, .fas, .icon):style(font-family: "SF Pro Display", sans-serif !important)
+md.gvdb.org##*:not(.fa, .fab, .fad, .fal, .far, .fas, .icon, .icon-tag, .icon-folder, .icon-note, .icon-fire):style(font-family: "SF Pro Display", sans-serif !important)
