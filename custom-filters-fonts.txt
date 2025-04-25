@@ -5,7 +5,7 @@
 ! Homepage: https://github.com/bth13/Custom-filters/blob/main/custom-filters-fonts.txt
 
 ! General
-*,~duckduckgo.com,~mozilla.org,~firefox.com,~thunderbird.net,~bing.com,~copilot.microsoft.com,msn.com,~mediafire.com,~fshare.vn,~timfshare.com,~facebook.com,~instagram.com,~threads.net,~x.com,~reddit.com,~youtube.com,~youtubekids.comg,~google.com,~fonts.google.com,~voz.vn,~vn-z.vn,~techrum.vn,~genius.com,~virustotal.com,~vnexpress.net,~icecreamapps.com,~taiwebs.com,~apkcombo.com,~tuanphong.vn,~thegioididong.com,~hentaivn.*,~boyfriendtv.*,~gayteam.club,~streamtape.com,~4horlover.*,~md.gvdb.org,~wattpad.com,~/^.*?motphim.*?$/,~qobuz.com##:is(button, body, input, label, select, td, textarea):not(pre, code, .fa, .fas, .far, .fal, .fad, .fab, .file-icon):style(font-family: "SF Pro Display", sans-serif !important)
+*,~duckduckgo.com,~mozilla.org,~firefox.com,~thunderbird.net,~bing.com,~copilot.microsoft.com,msn.com,~mediafire.com,~fshare.vn,~timfshare.com,~facebook.com,~instagram.com,~threads.*,~x.com,~reddit.com,~youtube.com,~youtubekids.comg,~google.com,~fonts.google.com,~voz.vn,~vn-z.vn,~techrum.vn,~genius.com,~virustotal.com,~vnexpress.net,~icecreamapps.com,~taiwebs.com,~apkcombo.com,~tuanphong.vn,~thegioididong.com,~hentaivn.*,~boyfriendtv.*,~gayteam.club,~streamtape.com,~4horlover.*,~md.gvdb.org,~wattpad.com,~/^.*?motphim.*?$/,~qobuz.com##:is(button, body, input, label, select, td, textarea):not(pre, code, .fa, .fas, .far, .fal, .fad, .fab, .file-icon):style(font-family: "SF Pro Display", sans-serif !important)
 *##code:style(font-family: "JetBrains Mono", monospace !important)
 
 ! DuckDuckGo
@@ -33,7 +33,7 @@ fshare.vn##*:not(.fa, .material-icons, .file-icon):style(font-family: "SF Pro Di
 timfshare.com##*:not(.fa, .material-icons, .file-icon):style(font-family: "SF Pro Display", sans-serif !important)
 
 ! Meta (Style for general)
-facebook.com,instagram.com,threads.net##*:style(font-family: "SF Pro Display", sans-serif !important)
+facebook.com,instagram.com,threads.*##*:style(font-family: "SF Pro Display", sans-serif !important)
 
 ! 𝕏 Twitter
 x.com##*:style(font-family: "SF Pro Display", sans-serif !important)
