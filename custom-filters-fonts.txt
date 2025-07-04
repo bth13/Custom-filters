@@ -120,4 +120,4 @@ streamtape.com##*:style(font-family: "SF Pro Display", sans-serif !important)
 md.gvdb.org##*:not(.fa, .fab, .fad, .fal, .far, .fas, .icon, .icon-tag, .icon-folder, .icon-note, .icon-fire, .fa-solid):style(font-family: "SF Pro Display", sans-serif !important)
 
 ! JAV Tsunami
-javtsunami.*##*:not(.button, .fa-input):style(font-family: "SF Pro Display", sans-serif !important)
+javtsunami.*##*:not(.button, .fa-input, pre, code, .fa, .fas, .far, .fal, .fad, .fab, .file-icon, .codicon):style(font-family: "SF Pro Display", sans-serif !important)
