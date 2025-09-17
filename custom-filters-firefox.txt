@@ -4,10 +4,6 @@
 ! Description: Block some elements and advertise on some websites for Firefox
 ! Homepage: https://github.com/bth13/Custom-filters/blob/main/custom-filters-firefox.txt
 
-! GENERAL
-! Disable box shadow
-*##*:style(box-shadow:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
-
 ! DuckDuckGo
 duckduckgo.com##.text_text-weight-normal__uWnDs
 duckduckgo.com##.center_andText__ejUnC
@@ -341,4 +337,5 @@ boyfriendtv.*##^.amateur-promo-heading
 boyfriendtv.*##^.ast-model-promo-list
 boyfriendtv.*##^.vtab
 boyfriendtv.*##^.footer
+
 
