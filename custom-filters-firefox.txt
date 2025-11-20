@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Custom filters: Firefox
-! Version: 2025.09.17
+! Version: 2025.11.20
 ! Description: Block some elements and advertise on some websites for Firefox
 ! Homepage: https://github.com/bth13/Custom-filters/blob/main/custom-filters-firefox.txt
 
@@ -67,6 +67,18 @@ play.google.com##.f0UV3d > span
 ||accounts.google.com/gsi/*$xhr,script,3p
 ! "Peopel also search for..."
 google.*##[id^="eob_"]
+
+! Google no translate
+www.google.com##.Pa9Ggf:not([style="display:none"])
+www.google.com##.Pa9Ggf[style="display:none"]:style(display: block !important;)
+www.google.com##a[jsname="UWckNb"][data-tli][href^="https://translate.google.com/translate?"]
+www.google.com##a[jsname="UWckNb"][data-tli][style="display:none"]:style(display: block !important;)
+www.google.com##div[jscontroller="Vxh2ib"]
+
+! Disable YouTube Pause
+youtube.com##+js(json-edit, ..youThereRenderer)
+youtube.com##+js(json-edit-fetch-response, ..youThereRenderer, propsToMatch, /youtubei)
+youtube.com##+js(json-edit-xhr-response, ..youThereRenderer, propsToMatch, /youtubei)
 
 ! YouTube
 ! Justify align comments & info
@@ -337,5 +349,6 @@ boyfriendtv.*##^.amateur-promo-heading
 boyfriendtv.*##^.ast-model-promo-list
 boyfriendtv.*##^.vtab
 boyfriendtv.*##^.footer
+
 
 
