@@ -9,7 +9,7 @@
 *##code:style(font-family: "JetBrains Mono", monospace !important)
 
 ! DNS Check
-dnscheck.tools##*:style(font-family: "JetBrains Mono", monospace !important)
+dnscheck.tools##*:style(font-family: "JetBrains Mono", monospace !important; font-size: 13px !important)
 
 ! DuckDuckGo
 duckduckgo.com##:is(button, body, input, label, select, td, textarea, .LQVY1Jpkk8nyJ6HBWKAk.EKtkFWMYpwzMKOYr0GYm):not(pre, code, .search__clear, .search__button, .cloudsave__icn):style(font-family: "SF Pro Display", sans-serif !important)
@@ -124,4 +124,5 @@ md.gvdb.org##*:not(.fa, .fab, .fad, .fal, .far, .fas, .icon, .icon-tag, .icon-fo
 
 ! JAV Tsunami
 javtsunami.*##*:not(.button, .fa-input, pre, code, .fa, .fas, .far, .fal, .fad, .fab, .file-icon, .codicon):style(font-family: "SF Pro Display", sans-serif !important)
+
 
