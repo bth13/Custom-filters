@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Custom filters: Fonts
-! Version: 2025.11.27
+! Version: 2026.04.25
 ! Description: Change fonts on some websites
 ! Homepage: https://github.com/bth13/Custom-filters/blob/main/custom-filters-fonts.txt
 
@@ -18,6 +18,9 @@ duckduckgo.com##.E2eLOJr8HctVnDOTM8fs, .cPy9QU4brI7VQXFNPEvF.wZ4JdaHxSAhGy1HoNVj
 
 ! Mozilla
 mozilla.org,firefox.com,thunderbird.net##*:not(.icon):style(font-family: "SF Pro Display", sans-serif !important)
+
+! Claude AI
+claude.ai##*:style(font-family: "SF Pro Display", sans-serif !important)
 
 ! Microsoft Bing
 bing.com##*:not(pre, code, .content span):style(font-family: "SF Pro Display", sans-serif !important)
