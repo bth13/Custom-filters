@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Custom filters: Fonts
-! Version: 2026.05.20
+! Version: 2026.05.21
 ! Description: Change fonts on some websites
 ! Homepage: https://github.com/bth13/Custom-filters/blob/main/custom-filters-fonts.txt
 
@@ -65,8 +65,8 @@ youtube.com,youtubekids.com##*:not(.vjsd-icon, .youtube-icons-outlined):style(fo
 music.youtube.com##.ytmusic-responsive-header-renderer.style-scope.title:style(font-size: 24px !important)
 
 ! Voz, Vn-z, Techrum
-voz.vn,vn-z.vn,techrum.vn##*:not(code, kbd, pre, samp, button, .inputDate-icon, .fancybox-button > i, .shareButtons-button> i, .shareInput-button > i, .reaction.reaction--imageHidden.reaction--1 i, .alertToggler-icon, .fa, .fas, .far, .fal, .fad, .fab):style(font-family: "SF Pro Display", sans-serif !important)
-voz.vn##code, kbd, pre, samp:style(font-family: "JetBrains Mono", monospace !important)
+voz.vn,vn-z.vn,techrum.vn##*:not(code, kbd, pre, samp, button, .prism-token, .inputDate-icon, .fancybox-button > i, .shareButtons-button> i, .shareInput-button > i, .reaction.reaction--imageHidden.reaction--1 i, .alertToggler-icon, .fa, .fas, .far, .fal, .fad, .fab):style(font-family: "SF Pro Display", sans-serif !important)
+voz.vn##code, kbd, pre, samp, .prism-token:style(font-family: "JetBrains Mono", monospace !important)
 
 ! Gitlab
 !gitlab.com##.monospace, .code.white .diff-line-num, .code.white .diff-line-num a, div.file-content.code pre code .line:style(font-family: "SF Mono", monospace !important)
