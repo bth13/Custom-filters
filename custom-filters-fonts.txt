@@ -91,7 +91,7 @@ vnexpress.net##*:style(font-family: "SF Pro Display", sans-serif !important)
 icecreamapps.com##*:style(font-family: "SF Pro Display", sans-serif !important)
 
 ! CDromance
-cdromance.*##*:not(.lg-icon):style(font-family: "SF Pro Display" !important)
+cdromance.*##*:not(.lg-icon,.rmp-icon--star::before):style(font-family: "SF Pro Display" !important)
 
 ! APK Combo
 apkcombo.com##*:style(font-family: "SF Pro Display" !important)
