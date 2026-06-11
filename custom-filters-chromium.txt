@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Custom filters: Chromium
-! Version: 2025.09.17
+! Version: 2026.06.12
 ! Description: Block some elements and advertise on some websites for Chromium
 ! Homepage: https://github.com/bth13/Custom-filters/blob/main/custom-filters-chromium.txt
 
@@ -110,6 +110,7 @@ youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: conten
 !music.youtube.com##tp-yt-paper-dialog
 
 ! Zalo
+chat.zalo.me##.--main-window.--web.system-banner__container
 chat.zalo.me##.tds-banner-download__content-wrapper
 chat.zalo.me##.snack-body
 
@@ -360,6 +361,9 @@ wattpad.*###footer-container
 /^.*?animet.*?$/##p:style(text-align: justify !important)
 /^.*?animet.*?$/##*:style(border-radius: unset !important)
 
+! CoBePhim
+cobephim.*##.is-catfish.is-wide.sspp-area
+
 ! 4horlover
 4horlover.*##.mtsnb-fixed
 4horlover.*##.site-footer
@@ -377,10 +381,10 @@ wattpad.*###footer-container
 igay69.*##.separator
 
 ! BoyfriendTV
-boyfriendtv.*##.amateur-promo-heading
-boyfriendtv.*##.ast-model-promo-list
-boyfriendtv.*##.vtab
-boyfriendtv.*##.footer
+boyfriendtv.*,boyfriend.tv##.amateur-promo-heading
+boyfriendtv.*,boyfriend.tv##.ast-model-promo-list
+boyfriendtv.*,boyfriend.tv##.vtab
+boyfriendtv.*,boyfriend.tv##.footer
 
 
 
