@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Custom filters: Fonts
-! Version: 2026.05.21
+! Version: 2026.06.12
 ! Description: Change fonts on some websites
 ! Homepage: https://github.com/bth13/Custom-filters/blob/main/custom-filters-fonts.txt
 
 ! General
-*,~duckduckgo.com,~mozilla.org,~firefox.com,~thunderbird.net,~bing.com,~copilot.microsoft.com,msn.com,~mediafire.com,~fshare.vn,~timfshare.com,~facebook.com,~instagram.com,~threads.*,~x.com,~reddit.com,~youtube.com,~youtubekids.comg,~google.com,~fonts.google.com,~voz.vn,~vn-z.vn,~techrum.vn,~genius.com,~virustotal.com,~vnexpress.net,~icecreamapps.com,~taiwebs.com,~apkcombo.com,~tuanphong.vn,~thegioididong.com,~hentaivn.*,~boyfriendtv.*,~gayteam.club,~streamtape.com,~4horlover.*,~md.gvdb.org,~wattpad.com,~/^.*?motphim.*?$/,~qobuz.com,~javtsunami.*##:is(button, body, input, label, select, td, textarea):not(pre, code, .fa, .fas, .far, .fal, .fad, .fab, .file-icon, .codicon):style(font-family: "SF Pro Display", sans-serif !important)
+*,~duckduckgo.com,~mozilla.org,~firefox.com,~thunderbird.net,~bing.com,~copilot.microsoft.com,msn.com,~mediafire.com,~fshare.vn,~timfshare.com,~facebook.com,~instagram.com,~threads.*,~x.com,~reddit.com,~youtube.com,~youtubekids.comg,~google.com,~fonts.google.com,~voz.vn,~vn-z.vn,~techrum.vn,~genius.com,~virustotal.com,~vnexpress.net,~icecreamapps.com,~taiwebs.com,~apkcombo.com,~tuanphong.vn,~thegioididong.com,~hentaivn.*,~boyfriendtv.*,boyfriend.tv,~gayteam.club,~streamtape.com,~4horlover.*,~md.gvdb.org,~wattpad.com,~/^.*?motphim.*?$/,~qobuz.com,~javtsunami.*,~cdromance.*##:is(button, body, input, label, select, td, textarea):not(pre, code, .fa, .fas, .far, .fal, .fad, .fab, .file-icon, .codicon):style(font-family: "SF Pro Display", sans-serif !important)
 *##code:style(font-family: "JetBrains Mono", monospace !important)
 
 ! DNS Check
@@ -90,8 +90,8 @@ vnexpress.net##*:style(font-family: "SF Pro Display", sans-serif !important)
 ! Icecream Apps
 icecreamapps.com##*:style(font-family: "SF Pro Display", sans-serif !important)
 
-! Taiwebs
-taiwebs.com##*:not(.fa):style(font-family: "SF Pro Display" !important)
+! CDromance
+cdromance.*##*:not(.lg-icon):style(font-family: "SF Pro Display" !important)
 
 ! APK Combo
 apkcombo.com##*:style(font-family: "SF Pro Display" !important)
@@ -115,7 +115,7 @@ wattpad.*##pre:style(font-family: "Vollkorn", serif !important; text-align: just
 hentaivn.*##*:style(font-family: "SF Pro Display", sans-serif !important; font-weight: normal !important)
 
 ! BoyfriendTV
-boyfriendtv.*##*:not(.fa):style(font-family: "SF Pro Display", sans-serif !important)
+boyfriendtv.*,boyfriend.tv##*:not(.fa):style(font-family: "SF Pro Display", sans-serif !important)
 
 ! Gayteam
 gayteam.club##*:not(.fa, .fab, .fad, .fal, .far, .fas, [class^="myicon-"]):style(font-family: "SF Pro Display", sans-serif !important)
@@ -131,7 +131,3 @@ md.gvdb.org##*:not(.fa, .fab, .fad, .fal, .far, .fas, .icon, .icon-tag, .icon-fo
 
 ! JAV Tsunami
 javtsunami.*##*:not(.button, .fa-input, pre, code, .fa, .fas, .far, .fal, .fad, .fab, .file-icon, .codicon):style(font-family: "SF Pro Display", sans-serif !important)
-
-
-
-
