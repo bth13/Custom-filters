@@ -115,7 +115,11 @@ chat.zalo.me##.tds-banner-download__content-wrapper
 chat.zalo.me##.snack-body
 
 ! Voz
-voz.vn##.voz-adSlot--billboard.voz-adSlot
+voz.vn##a.voz-adSlot-backup
+voz.vn##div.notice-content
+voz.vn##div.voz-adSlot.voz-adSlot--billboard
+voz.vn##div.voz-adSlot.voz-adSlot--halfPage
+voz.vn##div.voz-adSlot.voz-adSlot--leaderboard
 voz.vn##.shareButtons
 voz.vn##.button--scroll
 voz.vn##.notice-content
